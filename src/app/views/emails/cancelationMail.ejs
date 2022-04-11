@@ -1,0 +1,23 @@
+<head>
+  <style>
+    div{
+      background: rgb(160, 223, 188);
+      font-family: sans-serif;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<div>
+  <strong>Olá, <%= provider %></strong>
+
+  <p>Houve um cancelamento de horário, confira os detalhes abaixo:</p>
+
+  <p>
+    <strong>Cliente: </strong><%= user %><br/>
+    <strong>Data/hora: </strong><%= date %><br/><br/>
+    <small>
+      O horário está novamente disponível para novos agendamentos.
+    </small>
+  </p>
+</div>
